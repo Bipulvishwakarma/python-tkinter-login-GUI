@@ -21,7 +21,7 @@ submit=Button(frame,text="Submit",width="42",bg="blue",fg="white").grid(row=6,co
 def fun(event):
 	print("change password")
 
-#pwd1=Label(frame,text="forgot password").grid(row=8,column=2)
+
 
 pwd=Label(frame,text="forgot password ?",fg="blue")
 pwd.grid(row=8,column=2,padx=0,pady=0,ipady=3,sticky="E")
